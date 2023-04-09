@@ -6,6 +6,7 @@ import HomePage from "./components/homepage";
 import Navigation from "./components/navigation";
 import CrewMates from "./components/crewmates";
 import AddCrewMates from "./components/addcrewmate";
+import CrewMateDetails from "./components/crewmatedetails";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/crewmates" element={<CrewMates />} />
+          <Route path="/crewmates/:id" element={<CrewMateDetails />} />
           <Route path="/addcrewmate" element={<AddCrewMates />} />
         </Routes>
       </BrowserRouter>
