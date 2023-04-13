@@ -4,7 +4,6 @@ Submitted by: **Srikanth Medicherla**
 
 This web app: **Crewmate Add App**
 
-<<<<<<< HEAD
 Time spent: **4** hours spent in total
 
 ## Required Features
